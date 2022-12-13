@@ -1,2 +1,44 @@
-# CS-530-Group4-PECIM
-This is the repository for CS-530. This is the PECIM project made by group 4.
+# Group 4 PECIM
+
+**Main File Locations:**
+- arduino branch: /PlantsApp.ino
+- android branch: /app/src/main/java/com/example/myplants/MainActivity.java
+- android branch: /app/src/main/res/layout/activity_main.xml
+
+
+## Arduino
+### A tool that measure the soil moisture, temperature, and lux value of a plants environment and stores that information in a Firebase realtime database.
+
+**What We Learned:**
+- How to use Firebase to store data in real time
+- How to use a NodeMCU devboard connected to WiFi to send data to a Firebase real time database
+- How to read sensor values from photoresistors, thermistors and capacitive soil sensor
+
+**Materials:**
+- ESP8266 NodeMCU
+- Capacitive soil moisture sensor
+- Photoresistor
+- Thermistor
+- 1N4007 Diode x 3 (Not necessary if you are using a dev board with multiple analog input pins)
+- 10K Ohm resitor x 2
+
+**Note:**
+This project uses a NodeMCU and some sensors to get the soil moisture, temperature and lux values of a plants environment. This is then saved in a Firebase database and can be used in a mobile app, web app, etc. This project utilizes a NodeMCU because of the need to send data over WiFi. I recommend using the same board but if you wish to use another board that is fine, but you will need a way to connect to WiFi as well as a stable WiFi connection. In the materials list I did not provide any materials about powering the device. Depending on what device you are using you will have to satisfy different power requirements. 
+
+## Android
+### An app to display our sensor data, in real time, from the Firebase realtime database. 
+
+**What We Learned:**
+- How to read data from Firebase in real time
+- How to display that data on an app page
+
+**Pages**
+- Main page shows the data for all sensors
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84500689566",
+    "firebase_url": "https://plantsensor-8c310-default-rtdb.firebaseio.com",
+    "project_id": "plantsensor-8c310",
+    "storage_bucket": "plantsensor-8c310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84500689566:android:2c68230e9c6f9df00bc18f",
+        "android_client_info": {
+          "package_name": "com.example.myplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84500689566-pjnsrcunoqanqospq2l3uj45sipecv48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyY9vyQ51o95jF0ILiausI7rxck6jvQ6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84500689566-pjnsrcunoqanqospq2l3uj45sipecv48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

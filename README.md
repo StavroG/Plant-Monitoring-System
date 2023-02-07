@@ -1,4 +1,4 @@
-# Group 4 PECIM
+# Plant Monitoring System
 
 **Main File Locations:**
 - arduino branch: /PlantsApp.ino
